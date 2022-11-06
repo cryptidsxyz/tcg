@@ -11,6 +11,7 @@ specifiers:
   '@web3modal/core': 2.0.0-beta.2
   '@web3modal/ethereum': 2.0.0-beta.2
   '@web3modal/ui': 2.0.0-beta.2
+  buffer: ^6.0.3
   dotenv: ^16.0.3
   emittery: ^1.0.0
   eslint: ^8.26.0
@@ -46,6 +47,7 @@ devDependencies:
   '@web3modal/core': 2.0.0-beta.2_osjm7b44s6oygetuzz3kv6w7hu
   '@web3modal/ethereum': 2.0.0-beta.2_wwnar4b2kwwtwqixklel23jwai
   '@web3modal/ui': 2.0.0-beta.2_osjm7b44s6oygetuzz3kv6w7hu
+  buffer: 6.0.3
   dotenv: 16.0.3
   emittery: 1.0.0
   eslint: 8.26.0

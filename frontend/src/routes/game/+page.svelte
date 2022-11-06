@@ -5,7 +5,7 @@
 	import { createXMTP, xmtp } from '$lib/stores/xmtp';
 
 	setContext('xmtp', xmtp);
-	$: if ($xmtp) {
+	$: if ($xmtp.client && $account?.isConnected) {
 		goto('/game/dashboard');
 	}
 </script>
@@ -29,7 +29,7 @@
 						again.
 					</p>
 				</div>
-			{:else if !$xmtp}
+			{:else if !$xmtp.client}
 				<div class="text-left">
 					<h2 class="flex items-center gap-2 animate-pulse">
 						<div class="i-tabler-plug" />

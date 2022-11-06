@@ -6,13 +6,22 @@ import {
 	ModalCtrl,
 	SignerCtrl
 } from '@web3modal/core';
-import { chains, providers } from '@web3modal/ethereum';
+import { chains, providers, type Chain } from '@web3modal/ethereum';
 import type { Signer } from 'ethers';
 import type { AccountCtrlGetReturnValue } from '@web3modal/core';
 import '@web3modal/ui';
 import { writable } from 'svelte/store';
 import { goto } from '$app/navigation';
 import { xmtp } from './xmtp';
+
+const anvilChain: Chain = {
+	id: 31337,
+	name: 'Anvil',
+	rpcUrls: {
+		default: 'http://localhost:8545'
+	},
+	network: 'anvil'
+};
 
 // Configure web3modal
 ConfigCtrl.setConfig({
@@ -25,7 +34,7 @@ ConfigCtrl.setConfig({
 ClientCtrl.setEthereumClient({
 	appName: 'cryptids.xyz',
 	autoConnect: true,
-	chains: [chains.mainnet],
+	chains: [anvilChain],
 	providers: [
 		providers.walletConnectProvider({
 			projectId: '05d3030cfccb27ac6d7e267e3e2ea6fd'
@@ -50,7 +59,7 @@ ClientCtrl.subscribe((client) => {
 			if (update.isConnected && update.address) {
 				console.info('Connected to Ethereum', update);
 				SignerCtrl.fetch({
-					chainId: chains.mainnet.id
+					chainId: 31337
 				}).then((_signer) => {
 					if (!_signer || !_signer._isSigner) {
 						console.warn('No signer found');

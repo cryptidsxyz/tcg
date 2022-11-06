@@ -1,4 +1,5 @@
 <script lang="ts">
+  import defaultCardset from "$lib/tcg/data/alpha/cards.json"
 	import { admin, getCardsCID, loadCardsFromFile, loadSavedCardset } from "$lib/stores/admin";
 	import { onMount } from "svelte";
   let loading = false
@@ -7,6 +8,11 @@
 
   onMount(async () => {
     await loadSavedCardset()
+
+    if (!$admin.cards.length) {
+      $admin.cards = defaultCardset
+      $admin.cardsetId = await getCardsCID($admin.cards)
+    }
   })
 
   async function onLoadCardset() {
@@ -63,6 +69,8 @@
     <a href="/admin/cards">Cards</a>
     <a href="/admin/decks">Decks</a>
     <a href="/admin/players">Players</a>
+    <a href="/game">Game</a>
+    <a href="/">Home</a>
   </nav>
 </header>
 <main>

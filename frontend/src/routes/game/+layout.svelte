@@ -78,7 +78,7 @@
 					</div>
 				{:else}
 					<div class="wallet__address">
-						0x{$account?.address?.substring(0,6)}...{$account?.address?.substring($account?.address?.length - 6)}
+						{$account?.address?.substring(0,6)}...{$account?.address?.substring($account?.address?.length - 6)}
 					</div>
 				{/if}
 				<button class="wallet__disconnect" on:click={disconnect}>

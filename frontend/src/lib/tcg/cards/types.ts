@@ -42,6 +42,8 @@ export type Card = {
 	artwork_description?: string;
 	artwork_image?: string;
 	artwork_artist?: string;
+	artwork_preview_cids?: string[];
+	cid?: string;
 	types?: string[];
 	phases?: string[];
 	operations?: CardOperation[];
