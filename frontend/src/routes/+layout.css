@@ -1,0 +1,58 @@
+html,
+body {
+	@apply w-full h-full bg-neutral-900 text-gray-100 font-sansoverflow-hidden font-mono;
+	font-size: 20px;
+}
+
+body > div {
+	@apply w-full h-full box-border;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-bold font-mono;
+}
+
+h1 {
+	@apply text-3xl font-bold;
+}
+
+h2 {
+	@apply text-2xl font-bold;
+}
+
+h3 {
+	@apply text-xl font-bold;
+}
+
+h4 {
+	@apply text-lg font-bold;
+}
+
+h5 {
+	@apply text-md font-bold;
+}
+
+h6 {
+	@apply text-sm font-bold;
+}
+
+p {
+	@apply text-base;
+}
+
+a {
+	@apply text-blue-200;
+}
+
+a:hover {
+	@apply text-blue-300;
+}
+
+a:active {
+	@apply text-blue-400;
+}

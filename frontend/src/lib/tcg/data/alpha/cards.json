@@ -1,0 +1,1663 @@
+[
+	{
+		"id": "1",
+		"name": "Thrill Seeker",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "explorer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "2",
+		"name": "Outdoor Extremist",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "explorer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "3",
+		"name": "Speed Demon",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "explorer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "4",
+		"name": "Lone Wolf",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "explorer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "5",
+		"name": "Textile Tactician",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "artisan", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "6",
+		"name": "Solar Storm",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "artisan", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "7",
+		"name": "Magnifying Glass",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "artisan", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "8",
+		"name": "Wild Fire",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "artisan", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "9",
+		"name": "Crystal Baller",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "visionary", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "10",
+		"name": "Number Cruncher",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "visionary", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "11",
+		"name": "Astral Projector",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "visionary", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "12",
+		"name": "Prophetic Outcast",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "visionary", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "13",
+		"name": "Strange Brewmaster",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "alchemist", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "14",
+		"name": "Drill Sergeant",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "alchemist", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "15",
+		"name": "Experimental Acid",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "alchemist", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "16",
+		"name": "Recipe for Disaster",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "alchemist", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "17",
+		"name": "Mad Machinist",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "engineer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "18",
+		"name": "Unconventional Inventor",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "engineer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "19",
+		"name": "Mastermind",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "engineer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "20",
+		"name": "Architect",
+		"description": "",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main"],
+		"types": ["creature", "engineer", "token"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"wind energy": 1,
+			"blue mana": 1
+		}
+	},
+	{
+		"id": "21",
+		"name": "Dutch Wind Mill",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "wind", "white"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "white", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "22",
+		"name": "High Speed Propeller",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "wind", "white"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "white", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "23",
+		"name": "Giromill",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "wind", "white"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "white", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "24",
+		"name": "Vertical Turbine",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "wind", "white"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "white", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "25",
+		"name": "Island Sunrise",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "sun", "red"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "red", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "26",
+		"name": "Ambient Light",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "sun", "red"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "red", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "27",
+		"name": "Summit Rays",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "sun", "red"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "red", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "28",
+		"name": "Earth Ship",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "sun", "red"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "red", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "29",
+		"name": "Quartz",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "gem", "green"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "green", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "30",
+		"name": "Tourmaline",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "gem", "green"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "green", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "31",
+		"name": "Emerald",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "gem", "green"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "green", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "32",
+		"name": "Ruby",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "gem", "green"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "green", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "33",
+		"name": "Hot Spring",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "geothermal", "blue"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "blue", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "34",
+		"name": "Lava",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "geothermal", "blue"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "blue", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "35",
+		"name": "Deep Sea Vent",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "geothermal", "blue"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "blue", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "36",
+		"name": "Dry Steam Turbine",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "geothermal", "blue"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "blue", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "37",
+		"name": "Silver",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "metal", "orange"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "orange", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "38",
+		"name": "Copper",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "metal", "orange"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "orange", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "39",
+		"name": "Aluminum",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "metal", "orange"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "orange", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "40",
+		"name": "Gold",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "metal", "orange"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "orange", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "41",
+		"name": "Dark Matter",
+		"description": "",
+		"phases": ["start turn"],
+		"types": ["energy", "all", "black"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "black", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "42",
+		"name": "Parkour Ninja",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1,
+			"defender": true
+		}
+	},
+	{
+		"id": "43",
+		"name": "Mysterious Traveler",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1,
+			"defender": true
+		}
+	},
+	{
+		"id": "44",
+		"name": "Kevlar Footsoldier",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "45",
+		"name": "Masked Disruptor",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 1,
+			"defender": true
+		}
+	},
+	{
+		"id": "46",
+		"name": "Rooftop Rooster",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "47",
+		"name": "City Enforcer",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "48",
+		"name": "Negotiator",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 4,
+			"defender": true
+		}
+	},
+	{
+		"id": "49",
+		"name": "Reservist",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "50",
+		"name": "Event Promoter",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "51",
+		"name": "Security Guard",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "52",
+		"name": "Situation Fixer",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "53",
+		"name": "Cultured Socialite",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "54",
+		"name": "Backwoods Brawler",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "55",
+		"name": "Wilderness Guide",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 4,
+			"defender": true
+		}
+	},
+	{
+		"id": "56",
+		"name": "Summit Seeker",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "57",
+		"name": "Base Camp Defender",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "58",
+		"name": "Combative Informant",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 4,
+			"health": 4,
+			"defender": true
+		}
+	},
+	{
+		"id": "59",
+		"name": "Vexed Vigilante",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 4,
+			"health": 4,
+			"defender": true
+		}
+	},
+	{
+		"id": "60",
+		"name": "Mountain Recluse",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "61",
+		"name": "Conspirator",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1,
+			"defender": true
+		}
+	},
+	{
+		"id": "62",
+		"name": "Accomplice",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "63",
+		"name": "Media Operative",
+		"description": "Tea Spiller",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "64",
+		"name": "Rebel for the Cause",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 5,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "65",
+		"name": "Revenge Seeker",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 7,
+			"health": 7,
+			"defender": true
+		}
+	},
+	{
+		"id": "66",
+		"name": "Embedded Asset",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 2,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "67",
+		"name": "Seasoned Survivalist",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "68",
+		"name": "Game Trapper",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 5,
+			"defender": true
+		}
+	},
+	{
+		"id": "69",
+		"name": "Rugged Bushman",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 3,
+			"defender": true
+		}
+	},
+	{
+		"id": "70",
+		"name": "Faceless Wanderer",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 10,
+			"health": 10,
+			"defender": true
+		}
+	},
+	{
+		"id": "71",
+		"name": "Master of Mayhem",
+		"description": "Whenever this champion dies it instantly evolves into an enchantment. Select champion, add 1:1.",
+		"artwork_description": "",
+		"artwork_image": "",
+		"phases": ["main", "attack", "counter", "death"],
+		"types": ["creature", "explorer", "manifestation"],
+		"operations": [
+			{
+				"conditions": [
+					{
+						"event": "death",
+						"target": "self"
+					}
+				],
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "attack"
+				}
+			},
+			{
+				"conditions": [
+					{
+						"event": "death",
+						"target": "self"
+					}
+				],
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "health"
+				}
+			}
+		],
+		"attributes": {
+			"attack": 3,
+			"health": 5
+		},
+		"cost": {
+			"wind energy": 1,
+			"white": 1
+		}
+	},
+	{
+		"id": "72",
+		"name": "Reckless Recruiter",
+		"description": "",
+		"phases": ["main"],
+		"types": ["creature", "alchemist", "manifestation"],
+		"operations": [
+			{
+				"instruction": "spawn",
+				"parameters": {
+					"amount": 2,
+					"target": "16",
+					"from": "",
+					"to": "active"
+				}
+			}
+		],
+		"attributes": {
+			"attack": 2,
+			"health": 2
+		},
+		"cost": {
+			"wind energy": 1,
+			"white": 1
+		}
+	},
+	{
+		"id": "73",
+		"name": "DDOS",
+		"description": "Select opponent, all energy cards in their control become tapped. Energy cards do not untap until their next turn has ended.",
+		"phases": ["main"],
+		"types": ["hacking", "spell"],
+		"operations": [
+			{
+				"instruction": "tap",
+				"parameters": {
+					"mana": true,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "74",
+		"name": "Rug Pull",
+		"description": "All players count the number of cards in their hand. Discard all cards. Each player redraws the total number of cards that the player with the fewest cards in their hand had at the beginning of the turn. Each player gets a 1:1 token added to their field, tapped.",
+		"phases": ["main"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "draw",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "75",
+		"name": "Identity Theft",
+		"description": "Select one manifestation in opponent’s control. Make a copy and add it to your hand. Cost to deploy this card is now 1 energy.",
+		"phases": ["main"],
+		"types": ["hacking", "spell"],
+		"operations": [
+			{
+				"instruction": "copy",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "76",
+		"name": "Bad Influencer",
+		"description": "If selected opponent has 3 or more champions and/or tokens on the field, the two with the lowest total attack and life energy must fight each other.",
+		"phases": ["any"],
+		"types": ["hacker", "spell"],
+		"operations": [
+			{
+				"instruction": "fight",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "active"
+				}
+			}
+		]
+	},
+	{
+		"id": "77",
+		"name": "Air Drop",
+		"description": "Select one creature or player, add 1 health.",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "heal",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "78",
+		"name": "Fountain of Youth",
+		"description": "When champion dies, transfer maximum life strength upon death to player life.",
+		"phases": ["any"],
+		"types": ["manifestation", "spell"],
+		"operations": [
+			{
+				"instruction": "heal",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "79",
+		"name": "Virally Infected",
+		"description": "When champion dies, subtract maximum life strength upon death from player life.",
+		"phases": ["any"],
+		"types": ["manifestation", "spell"],
+		"operations": [
+			{
+				"instruction": "damage",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "80",
+		"name": "Mesmerize",
+		"description": "Champions equipped with Mesmerize are immune to enemy manifestations.",
+		"phases": ["any"],
+		"types": ["manifestation", "spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "shield"
+				}
+			}
+		]
+	},
+	{
+		"id": "81",
+		"name": "Black Market",
+		"description": "Whenever afflicted card would give life to its controller, give life to Black Market player instead.",
+		"phases": ["any"],
+		"types": ["manifestation", "spell"],
+		"operations": [
+			{
+				"instruction": "heal",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "82",
+		"name": "Cloak",
+		"description": "Can only be blocked by other cloaked champions.",
+		"phases": ["any"],
+		"types": ["manifestation", "spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "shield"
+				}
+			}
+		]
+	},
+	{
+		"id": "83",
+		"name": "X-Ray Vision",
+		"description": "Can block cloaked champions.",
+		"phases": ["any"],
+		"types": ["hack", "spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "shield"
+				}
+			}
+		]
+	},
+	{
+		"id": "84",
+		"name": "Doctor Death",
+		"description": "Whenever you destroy an enemy champion, gain one player life.",
+		"phases": ["main"],
+		"types": ["schematic", "artifact"]
+	},
+	{
+		"id": "85",
+		"name": "Critical Striker",
+		"description": "Whenever you damage an opposing player they must tap an energy card. Energy does not untap until the end of their next turn.",
+		"phases": ["main"],
+		"types": ["schematic", "artifact"]
+	},
+	{
+		"id": "86",
+		"name": "Karma Chameleon",
+		"description": "Put an X/X countdown on Karma Chameleon for each energy card you control. Deal one damage to enemy player whenever they draw a card. Karma Chameleon evolves into a 1:1 wolf and enters the field upon countdown expiration.",
+		"phases": ["main"],
+		"types": ["schematic", "artifact"]
+	},
+	{
+		"id": "87",
+		"name": "Faithful Consular",
+		"description": "Whenever an enemy destroys one of your champions draw a card.",
+		"phases": ["main"],
+		"types": ["schematic", "artifact"]
+	},
+	{
+		"id": "88",
+		"name": "Defensive Coordinator",
+		"description": "Whenever you call a champion to the field add 0:1.",
+		"phases": ["main"],
+		"types": ["schematic", "artifact"]
+	},
+	{
+		"id": "",
+		"name": "Simple Defender Creature",
+		"description": "Simple defender creature card",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "5",
+		"name": "Medium Attacker Creature",
+		"description": "Medium attacker creature card",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "6",
+		"name": "Scry Spell",
+		"description": "Scry spell card",
+		"phases": ["main"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "scry",
+				"parameters": {
+					"amount": 3,
+					"target": true
+				}
+			},
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "scry",
+					"to": "graveyard"
+				}
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name": "Draw Spell",
+		"description": "Draw spell card",
+		"phases": ["main"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "draw",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name": "Heal Spell",
+		"description": "Heal spell card",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "heal",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name": "Reveal Hand Spell",
+		"description": "Reveal enemy hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "show",
+				"parameters": {
+					"amount": 0,
+					"target": true,
+					"from": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "10",
+		"name": "Destroy Spell",
+		"description": "Destroy enemy non-land permanent",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "graveyard",
+					"immune": ["land"]
+				}
+			}
+		]
+	},
+	{
+		"id": "11",
+		"name": "Exile Spell",
+		"description": "Exile enemy non-land permanent",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "exile",
+					"immune": ["land"]
+				}
+			}
+		]
+	},
+	{
+		"id": "12",
+		"name": "Return Enemy Permanent Spell",
+		"description": "Return enemy permanent to their hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "13",
+		"name": "Resurrect Spell",
+		"description": "Resurrect permanent from your graveyard",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"local": true,
+					"from": "graveyard",
+					"to": "active"
+				}
+			}
+		]
+	},
+	{
+		"id": "14",
+		"name": "Shield Spell",
+		"description": "Give target creature a shield counter",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "shield"
+				}
+			}
+		]
+	},
+	{
+		"id": "15",
+		"name": "Copy Spell",
+		"description": "Copy target creature to your hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "copy",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "16",
+		"name": "Swap Spell",
+		"description": "Swap target creature with your creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "swap",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "17",
+		"name": "Fight Spell",
+		"description": "Cause target creatures to fight",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "fight",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "active"
+				}
+			}
+		]
+	},
+	{
+		"id": "18",
+		"name": "Add Attack Spell",
+		"description": "Add attack to target creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "attack"
+				}
+			}
+		]
+	},
+	{
+		"id": "19",
+		"name": "Add Health Spell",
+		"description": "Add health to target creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "health"
+				}
+			}
+		]
+	},
+	{
+		"id": "21",
+		"name": "Cancel Spell",
+		"description": "Cancel target spell",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "graveyard"
+				}
+			}
+		]
+	}
+]

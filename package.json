@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"@iconify-json/tabler": "^1.1.44",
+		"@types/uuid": "^8.3.4",
+		"@xmtp/xmtp-js": "^7.0.1",
+		"prettier": "^2.7.1",
+		"uuid": "^9.0.0"
+	}
+}

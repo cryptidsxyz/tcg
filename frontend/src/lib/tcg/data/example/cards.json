@@ -1,0 +1,383 @@
+[
+	{
+		"id": "1",
+		"name": "Simple Creature",
+		"description": "Simple creature card",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 1,
+			"health": 1
+		},
+		"cost": {
+			"red mana": 1
+		}
+	},
+	{
+		"id": "2",
+		"name": "Simple Red Mana",
+		"description": "Simple red mana card",
+		"phases": ["main"],
+		"types": ["mana", "red mana"],
+		"operations": [
+			{
+				"condition": "always",
+				"instruction": "addMana",
+				"parameters": {
+					"mana": [{ "type": "red", "value": 1 }]
+				}
+			}
+		]
+	},
+	{
+		"id": "3",
+		"name": "Simple Spell",
+		"description": "Simple spell card",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "dealDamage",
+				"parameters": {
+					"damage": 1
+				}
+			}
+		]
+	},
+	{
+		"id": "4",
+		"name": "Simple Defender Creature",
+		"description": "Simple defender creature card",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 0,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "5",
+		"name": "Medium Attacker Creature",
+		"description": "Medium attacker creature card",
+		"phases": ["main"],
+		"types": ["creature"],
+		"operations": [],
+		"attributes": {
+			"attack": 3,
+			"health": 2,
+			"defender": true
+		}
+	},
+	{
+		"id": "6",
+		"name": "Scry Spell",
+		"description": "Scry spell card",
+		"phases": ["main"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "scry",
+				"parameters": {
+					"amount": 3,
+					"target": true
+				}
+			},
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "scry",
+					"to": "graveyard"
+				}
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name": "Draw Spell",
+		"description": "Draw spell card",
+		"phases": ["main"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "draw",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name": "Heal Spell",
+		"description": "Heal spell card",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "heal",
+				"parameters": {
+					"amount": 1,
+					"target": true
+				}
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name": "Reveal Hand Spell",
+		"description": "Reveal enemy hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "show",
+				"parameters": {
+					"amount": 0,
+					"target": true,
+					"from": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "10",
+		"name": "Destroy Spell",
+		"description": "Destroy enemy non-land permanent",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "graveyard",
+					"immune": ["land"]
+				}
+			}
+		]
+	},
+	{
+		"id": "11",
+		"name": "Exile Spell",
+		"description": "Exile enemy non-land permanent",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "exile",
+					"immune": ["land"]
+				}
+			}
+		]
+	},
+	{
+		"id": "12",
+		"name": "Return Enemy Permanent Spell",
+		"description": "Return enemy permanent to their hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "13",
+		"name": "Resurrect Spell",
+		"description": "Resurrect permanent from your graveyard",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"local": true,
+					"from": "graveyard",
+					"to": "active"
+				}
+			}
+		]
+	},
+	{
+		"id": "14",
+		"name": "Shield Spell",
+		"description": "Give target creature a shield counter",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "shield"
+				}
+			}
+		]
+	},
+	{
+		"id": "15",
+		"name": "Copy Spell",
+		"description": "Copy target creature to your hand",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "copy",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "16",
+		"name": "Swap Spell",
+		"description": "Swap target creature with your creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "swap",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "hand"
+				}
+			}
+		]
+	},
+	{
+		"id": "17",
+		"name": "Fight Spell",
+		"description": "Cause target creatures to fight",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "fight",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "active"
+				}
+			}
+		]
+	},
+	{
+		"id": "18",
+		"name": "Add Attack Spell",
+		"description": "Add attack to target creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "attack"
+				}
+			}
+		]
+	},
+	{
+		"id": "19",
+		"name": "Add Health Spell",
+		"description": "Add health to target creature",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "addCounter",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"attribute": "health"
+				}
+			}
+		]
+	},
+	{
+		"id": "21",
+		"name": "Cancel Spell",
+		"description": "Cancel target spell",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "move",
+				"parameters": {
+					"amount": 1,
+					"target": true,
+					"from": "active",
+					"to": "graveyard"
+				}
+			}
+		]
+	},
+	{
+		"id": "22",
+		"name": "Conditional Operation Spell",
+		"description": "If target creature has 3 or more attack, add 2 attack to it",
+		"phases": ["any"],
+		"types": ["spell"],
+		"operations": [
+			{
+				"instruction": "condition",
+				"parameters": {
+					"conditions": [
+						{
+							"attribute": "attack",
+							"operator": ">=",
+							"value": 3
+						}
+					]
+				},
+				"operations": [
+					{
+						"instruction": "addCounter",
+						"parameters": {
+							"amount": 2,
+							"target": true,
+							"attribute": "attack"
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "23",
+		"name": "Whenever Creature",
+		"description": "Whenever this creature attacks, add 1 attack to it",
+		"phases": ["main"],
+		"types": ["creature"]
+	}
+]
